@@ -1,0 +1,117 @@
+body {
+
+	background-color: blue;
+	color: black;
+	font-family: Helvetica;
+	font-size: 17px;
+}
+
+h1 {
+	.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	}
+	color: black;
+
+}
+
+#Photo-de-profil {
+
+	border-radius: 50%;
+}
+
+
+p {
+	.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	}
+}
+
+
+img {
+
+	width: 378px;
+	height: 504px;
+}
+
+
+/* Custom design with class */
+
+.container {
+
+	width: 700px; 
+	margin: 40px auto;
+}
+
+@media (max-width: 490px) {
+	.container {
+		width: 10px;
+	}
+	#Photo-de-profil {
+		width: 30%;
+		height: auto;
+	}
+
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+	#Photo-de-profil {
+		width: 50%;
+		height: auto;
+	}
+
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+	#Photo-de-profil {
+		width: 70%;
+		height: auto;
+	}
+
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: blue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: blue;
+}
